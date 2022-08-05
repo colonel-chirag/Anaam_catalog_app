@@ -156,7 +156,7 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: Colors.black,
         automaticallyImplyLeading: false,
         title: Text(
           FFLocalizations.of(context).getText(
@@ -168,7 +168,7 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget>
         centerTitle: false,
         elevation: 0,
       ),
-      backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+      backgroundColor: Colors.black,
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height * 1,
