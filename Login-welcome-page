@@ -68,12 +68,14 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height * 1,
                   decoration: BoxDecoration(
+                    color: Colors.black,
                     image: DecorationImage(
                       fit: BoxFit.fitWidth,
                       image: Image.asset(
                         'assets/images/login_bg@2x.png',
                       ).image,
                     ),
+                    shape: BoxShape.rectangle,
                   ),
                   child: Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
