@@ -1,4 +1,3 @@
-import '../create_budget_begin/create_budget_begin_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
@@ -23,7 +22,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+      backgroundColor: Colors.black,
       body: SafeArea(
         child: Column(
           mainAxisSize: MainAxisSize.max,
@@ -64,36 +63,31 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                               Container(
                                 width: 100,
                                 height: 100,
-                                decoration: BoxDecoration(),
+                                decoration: BoxDecoration(
+                                  color: Colors.black,
+                                ),
                                 child: Column(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text(
-                                      FFLocalizations.of(context).getText(
-                                        'wvyckfzf' /* ANAAM */,
-                                      ),
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyText1
-                                          .override(
-                                            fontFamily: 'Lexend',
-                                            fontSize: 35,
-                                          ),
-                                    ),
                                     Row(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
                                       children: [
-                                        Container(
-                                          width: 120,
-                                          height: 120,
-                                          clipBehavior: Clip.antiAlias,
-                                          decoration: BoxDecoration(
-                                            shape: BoxShape.circle,
-                                          ),
-                                          child: Image.asset(
-                                            'assets/images/gxif9_600',
+                                        Align(
+                                          alignment:
+                                              AlignmentDirectional(-0.75, 0),
+                                          child: Container(
+                                            width: 300,
+                                            height: 300,
+                                            clipBehavior: Clip.antiAlias,
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape.circle,
+                                            ),
+                                            child: Image.asset(
+                                              'assets/images/Cover-Drug-Trafficking-5-720x420.jpg',
+                                            ),
                                           ),
                                         ),
                                       ],
@@ -108,33 +102,16 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'i8hl2uua' /* Drug Trafficking */,
+                                                'i8hl2uua' /* Fed Up from Drug Trafficking ? */,
                                               ),
                                               textAlign: TextAlign.center,
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .title1,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          20, 0, 20, 8),
-                                      child: Row(
-                                        mainAxisSize: MainAxisSize.max,
-                                        children: [
-                                          Expanded(
-                                            child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'hxtwax0y' /* Upload Information related to ... */,
-                                              ),
-                                              textAlign: TextAlign.center,
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyText2,
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .title1
+                                                  .override(
+                                                    fontFamily: 'Montserrat',
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                             ),
                                           ),
                                         ],
