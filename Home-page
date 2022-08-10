@@ -364,7 +364,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         8, 8, 8, 8),
                                     child: Icon(
-                                      Icons.monetization_on_rounded,
+                                      Icons.library_add_check,
                                       color: FlutterFlowTheme.of(context)
                                           .tertiaryColor,
                                       size: 24,
@@ -402,46 +402,6 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                       ),
                                     ],
                                   ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    12, 0, 12, 0),
-                                child: Column(
-                                  mainAxisSize: MainAxisSize.max,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.end,
-                                  children: [
-                                    Text(
-                                      FFLocalizations.of(context).getText(
-                                        'bj5qnrj5' /* $50.00 */,
-                                      ),
-                                      textAlign: TextAlign.end,
-                                      style: FlutterFlowTheme.of(context)
-                                          .subtitle2
-                                          .override(
-                                            fontFamily: 'Lexend',
-                                            color: FlutterFlowTheme.of(context)
-                                                .tertiaryColor,
-                                          ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 4, 0, 0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'd1n5mbq7' /* Hello World */,
-                                        ),
-                                        textAlign: TextAlign.end,
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodyText1
-                                            .override(
-                                              fontFamily: 'Lexend',
-                                              fontSize: 12,
-                                            ),
-                                      ),
-                                    ),
-                                  ],
                                 ),
                               ),
                             ],
@@ -504,7 +464,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                             0, 4, 0, 0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            '1fjdiibo' /* Income */,
+                                            '1fjdiibo' /* July 2022  */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1,
@@ -512,46 +472,6 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                       ),
                                     ],
                                   ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    12, 0, 12, 0),
-                                child: Column(
-                                  mainAxisSize: MainAxisSize.max,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.end,
-                                  children: [
-                                    Text(
-                                      FFLocalizations.of(context).getText(
-                                        'ld7s2fpn' /* $50.00 */,
-                                      ),
-                                      textAlign: TextAlign.end,
-                                      style: FlutterFlowTheme.of(context)
-                                          .subtitle2
-                                          .override(
-                                            fontFamily: 'Lexend',
-                                            color: FlutterFlowTheme.of(context)
-                                                .tertiaryColor,
-                                          ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 4, 0, 0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'ft8bu1we' /* Hello World */,
-                                        ),
-                                        textAlign: TextAlign.end,
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodyText1
-                                            .override(
-                                              fontFamily: 'Lexend',
-                                              fontSize: 12,
-                                            ),
-                                      ),
-                                    ),
-                                  ],
                                 ),
                               ),
                             ],
@@ -604,7 +524,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     children: [
                                       Text(
                                         FFLocalizations.of(context).getText(
-                                          '8t6ddwco' /* Go Far Rewards */,
+                                          '8t6ddwco' /* Information - 1 */,
                                         ),
                                         style:
                                             FlutterFlowTheme.of(context).title3,
@@ -614,7 +534,7 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                             0, 4, 0, 0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'td15kjsa' /* Income */,
+                                            'td15kjsa' /* June 2022 */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1,
@@ -622,46 +542,6 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                       ),
                                     ],
                                   ),
-                                ),
-                              ),
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    12, 0, 12, 0),
-                                child: Column(
-                                  mainAxisSize: MainAxisSize.max,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.end,
-                                  children: [
-                                    Text(
-                                      FFLocalizations.of(context).getText(
-                                        'qmjqp9a6' /* $50.00 */,
-                                      ),
-                                      textAlign: TextAlign.end,
-                                      style: FlutterFlowTheme.of(context)
-                                          .subtitle2
-                                          .override(
-                                            fontFamily: 'Lexend',
-                                            color: FlutterFlowTheme.of(context)
-                                                .tertiaryColor,
-                                          ),
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 4, 0, 0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          '9qc797et' /* Hello World */,
-                                        ),
-                                        textAlign: TextAlign.end,
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodyText1
-                                            .override(
-                                              fontFamily: 'Lexend',
-                                              fontSize: 12,
-                                            ),
-                                      ),
-                                    ),
-                                  ],
                                 ),
                               ),
                             ],
