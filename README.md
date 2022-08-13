@@ -7,3 +7,4 @@ onboarrding-page![image](https://user-images.githubusercontent.com/59536110/1832
 Profile-page![image](https://user-images.githubusercontent.com/59536110/182662498-f07d24b9-e831-443a-a7a3-ee62d3b6dc58.png)
 Register-page![image](https://user-images.githubusercontent.com/59536110/183146069-805897bc-c4c3-460c-b045-bfa414af9544.png)
 Homepage ![image](https://user-images.githubusercontent.com/59536110/184504051-a8db27f0-5a90-4d03-acb8-adddb46abab0.png)
+Reward point ![image](https://user-images.githubusercontent.com/59536110/184504379-660799f0-4bc2-48a0-9dcd-3187afa69f2e.png)
