@@ -1,0 +1,125 @@
+import '../flutter_flow/flutter_flow_theme.dart';
+import '../flutter_flow/flutter_flow_util.dart';
+import '../flutter_flow/flutter_flow_widgets.dart';
+import '../home_page_alt/home_page_alt_widget.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+class SuccessWidget extends StatefulWidget {
+  const SuccessWidget({Key? key}) : super(key: key);
+
+  @override
+  _SuccessWidgetState createState() => _SuccessWidgetState();
+}
+
+class _SuccessWidgetState extends State<SuccessWidget> {
+  final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      key: scaffoldKey,
+      backgroundColor: Color(0xFF00796B),
+      body: SafeArea(
+        child: Column(
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            Padding(
+              padding: EdgeInsetsDirectional.fromSTEB(0, 100, 0, 0),
+              child: Card(
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                color: Colors.green,
+                elevation: 3,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(70),
+                ),
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(30, 30, 30, 30),
+                  child: Icon(
+                    Icons.check_rounded,
+                    color: Colors.white,
+                    size: 60,
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsetsDirectional.fromSTEB(0, 24, 0, 0),
+              child: Text(
+                FFLocalizations.of(context).getText(
+                  'f73j9nv4' /* Report Posted ! */,
+                ),
+                style: FlutterFlowTheme.of(context).title1.override(
+                      fontFamily: 'Lexend Deca',
+                      color: Color(0xFFE0F2F1),
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                    ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsetsDirectional.fromSTEB(24, 20, 24, 0),
+              child: Text(
+                FFLocalizations.of(context).getText(
+                  'grywyu3c' /* Your report has been successfu... */,
+                ),
+                textAlign: TextAlign.center,
+                style: FlutterFlowTheme.of(context).bodyText2.override(
+                      fontFamily: 'Lexend Deca',
+                      color: Color(0xFF95A1AC),
+                      fontSize: 14,
+                      fontWeight: FontWeight.normal,
+                    ),
+              ),
+            ),
+            Expanded(
+              child: Padding(
+                padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 200),
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 25, 0, 0),
+                      child: FFButtonWidget(
+                        onPressed: () async {
+                          await Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => HomePageAltWidget(),
+                            ),
+                          );
+                        },
+                        text: FFLocalizations.of(context).getText(
+                          '9hb2vc08' /* Go Home */,
+                        ),
+                        options: FFButtonOptions(
+                          width: 230,
+                          height: 50,
+                          color: Color(0xFFF1F4F8),
+                          textStyle:
+                              FlutterFlowTheme.of(context).subtitle2.override(
+                                    fontFamily: 'Lexend Deca',
+                                    color: Color(0xFF090F13),
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                          elevation: 0,
+                          borderSide: BorderSide(
+                            color: Colors.transparent,
+                            width: 1,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
