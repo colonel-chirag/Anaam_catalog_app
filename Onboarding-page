@@ -156,7 +156,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'mjy3ljln' /* Keep Track of Spending */,
+                                                'mjy3ljln' /* Report us ! */,
                                               ),
                                               textAlign: TextAlign.center,
                                               style:
@@ -177,7 +177,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'uf9k1spp' /* Easily add transactions and as... */,
+                                                'uf9k1spp' /*  Information related to drug t... */,
                                               ),
                                               textAlign: TextAlign.center,
                                               style:
@@ -227,7 +227,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                '9c4outzf' /* Budget Analysis */,
+                                                '9c4outzf' /* Get Rewards */,
                                               ),
                                               textAlign: TextAlign.center,
                                               style:
@@ -248,7 +248,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'q30ina4f' /* Know where your budgets are an... */,
+                                                'q30ina4f' /* Reward points on the basis of ... */,
                                               ),
                                               textAlign: TextAlign.center,
                                               style:
