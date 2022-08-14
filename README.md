@@ -8,3 +8,4 @@ Profile-page![image](https://user-images.githubusercontent.com/59536110/18266249
 Register-page![image](https://user-images.githubusercontent.com/59536110/183146069-805897bc-c4c3-460c-b045-bfa414af9544.png)
 Homepage ![image](https://user-images.githubusercontent.com/59536110/184504051-a8db27f0-5a90-4d03-acb8-adddb46abab0.png)
 Reward point ![image](https://user-images.githubusercontent.com/59536110/184504379-660799f0-4bc2-48a0-9dcd-3187afa69f2e.png)
+Report success ![image](https://user-images.githubusercontent.com/59536110/184539301-c37bce99-3fae-4294-9ec4-9f6d7f031e29.png)
