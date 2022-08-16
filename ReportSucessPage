@@ -1,7 +1,7 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../home_page_alt/home_page_alt_widget.dart';
+import '../home_page_alt_1/home_page_alt1_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -48,7 +48,7 @@ class _SuccessWidgetState extends State<SuccessWidget> {
               padding: EdgeInsetsDirectional.fromSTEB(0, 24, 0, 0),
               child: Text(
                 FFLocalizations.of(context).getText(
-                  'f73j9nv4' /* Report Posted ! */,
+                  'rgyo3toi' /* Report Posted ! */,
                 ),
                 style: FlutterFlowTheme.of(context).title1.override(
                       fontFamily: 'Lexend Deca',
@@ -62,7 +62,7 @@ class _SuccessWidgetState extends State<SuccessWidget> {
               padding: EdgeInsetsDirectional.fromSTEB(24, 20, 24, 0),
               child: Text(
                 FFLocalizations.of(context).getText(
-                  'grywyu3c' /* Your report has been successfu... */,
+                  '08tk9gm6' /* Your report has been successfu... */,
                 ),
                 textAlign: TextAlign.center,
                 style: FlutterFlowTheme.of(context).bodyText2.override(
@@ -87,12 +87,12 @@ class _SuccessWidgetState extends State<SuccessWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => HomePageAltWidget(),
+                              builder: (context) => HomePageAlt1Widget(),
                             ),
                           );
                         },
                         text: FFLocalizations.of(context).getText(
-                          '9hb2vc08' /* Go Home */,
+                          '5f1zjwx8' /* Go Home */,
                         ),
                         options: FFButtonOptions(
                           width: 230,
