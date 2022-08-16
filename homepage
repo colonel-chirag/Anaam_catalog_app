@@ -1,6 +1,8 @@
+import '../add_report/add_report_widget.dart';
 import '../flutter_flow/flutter_flow_animations.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
+import '../main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -86,16 +88,27 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                           ),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(2, 2, 2, 2),
-                            child: Container(
-                              width: 60,
-                              height: 60,
-                              clipBehavior: Clip.antiAlias,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                              ),
-                              child: Image.asset(
-                                'assets/images/IMG_20220415_132129.jpg',
-                                fit: BoxFit.fitWidth,
+                            child: InkWell(
+                              onTap: () async {
+                                await Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => NavBarPage(
+                                        initialPage: 'MY_profilePage'),
+                                  ),
+                                );
+                              },
+                              child: Container(
+                                width: 60,
+                                height: 60,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                ),
+                                child: Image.asset(
+                                  'assets/images/IMG_20220415_132129.jpg',
+                                  fit: BoxFit.fitWidth,
+                                ),
                               ),
                             ),
                           ),
@@ -231,29 +244,39 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     .primaryBackground,
                                 borderRadius: BorderRadius.circular(8),
                               ),
-                              child: Column(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Icon(
-                                    Icons.note_add,
-                                    color: FlutterFlowTheme.of(context)
-                                        .primaryText,
-                                    size: 40,
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0, 8, 0, 0),
-                                    child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'rfozud9v' /* Add Information */,
-                                      ),
-                                      textAlign: TextAlign.center,
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyText1,
+                              child: InkWell(
+                                onTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => AddReportWidget(),
                                     ),
-                                  ),
-                                ],
+                                  );
+                                },
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.note_add,
+                                      color: FlutterFlowTheme.of(context)
+                                          .primaryText,
+                                      size: 40,
+                                    ),
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          0, 8, 0, 0),
+                                      child: Text(
+                                        FFLocalizations.of(context).getText(
+                                          'rfozud9v' /* Add Information */,
+                                        ),
+                                        textAlign: TextAlign.center,
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyText1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                             Container(
