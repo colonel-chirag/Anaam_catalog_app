@@ -14,19 +14,20 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class TransactionADDWidget extends StatefulWidget {
-  const TransactionADDWidget({Key? key}) : super(key: key);
+class AddReportWidget extends StatefulWidget {
+  const AddReportWidget({Key? key}) : super(key: key);
 
   @override
-  _TransactionADDWidgetState createState() => _TransactionADDWidgetState();
+  _AddReportWidgetState createState() => _AddReportWidgetState();
 }
 
-class _TransactionADDWidgetState extends State<TransactionADDWidget>
+class _AddReportWidgetState extends State<AddReportWidget>
     with TickerProviderStateMixin {
   String? budgetValue;
   TextEditingController? reasonController;
   TextEditingController? spentAtController;
   TextEditingController? textController1;
+  double? sliderValue;
   final formKey = GlobalKey<FormState>();
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final animationsMap = {
@@ -104,6 +105,7 @@ class _TransactionADDWidgetState extends State<TransactionADDWidget>
     spentAtController = TextEditingController();
     textController1 =
         TextEditingController(text: random_data.randomDate().toString());
+    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -194,6 +196,7 @@ class _TransactionADDWidgetState extends State<TransactionADDWidget>
                                   EdgeInsetsDirectional.fromSTEB(0, 16, 0, 0),
                               child: TextFormField(
                                 controller: textController1,
+                                onFieldSubmitted: (_) async {},
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   labelText:
@@ -255,6 +258,34 @@ class _TransactionADDWidgetState extends State<TransactionADDWidget>
                               ).animated([
                                 animationsMap['textFieldOnPageLoadAnimation1']!
                               ]),
+                            ),
+                            Padding(
+                              padding:
+                                  EdgeInsetsDirectional.fromSTEB(0, 300, 0, 0),
+                              child: Slider(
+                                activeColor:
+                                    FlutterFlowTheme.of(context).primaryColor,
+                                inactiveColor: Color(0xFF9E9E9E),
+                                min: 0,
+                                max: 10,
+                                value: sliderValue ??= 1,
+                                label: sliderValue.toString(),
+                                divisions: 5,
+                                onChanged: (newValue) {
+                                  setState(() => sliderValue = newValue);
+                                },
+                              ),
+                            ),
+                            Padding(
+                              padding:
+                                  EdgeInsetsDirectional.fromSTEB(0, 0, 150, 0),
+                              child: Text(
+                                FFLocalizations.of(context).getText(
+                                  'ltel94ns' /* Level of Suspicious Sense */,
+                                ),
+                                textAlign: TextAlign.start,
+                                style: FlutterFlowTheme.of(context).bodyText1,
+                              ),
                             ),
                           ],
                         ),
