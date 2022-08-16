@@ -6,6 +6,7 @@ import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../success/success_widget.dart';
 import '../flutter_flow/random_data_util.dart' as random_data;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
@@ -367,7 +368,7 @@ class _TransactionADDWidgetState extends State<TransactionADDWidget>
                               height: 60,
                               textStyle: FlutterFlowTheme.of(context).bodyText1,
                               hintText: FFLocalizations.of(context).getText(
-                                '861el4k4' /* Select Budget */,
+                                '861el4k4' /* Select Category */,
                               ),
                               icon: Icon(
                                 Icons.keyboard_arrow_down_rounded,
@@ -452,10 +453,15 @@ class _TransactionADDWidgetState extends State<TransactionADDWidget>
                               await TransactionsRecord.collection
                                   .doc()
                                   .set(transactionsCreateData);
-                              Navigator.pop(context);
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => SuccessWidget(),
+                                ),
+                              );
                             },
                             text: FFLocalizations.of(context).getText(
-                              'uqfgu088' /* Add Transaction */,
+                              'uqfgu088' /* Add Report */,
                             ),
                             options: FFButtonOptions(
                               width: 300,
