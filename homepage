@@ -1,8 +1,10 @@
 import '../add_report/add_report_widget.dart';
 import '../flutter_flow/flutter_flow_animations.dart';
+import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../main.dart';
+import '../notification/notification_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -287,28 +289,39 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     .primaryBackground,
                                 borderRadius: BorderRadius.circular(8),
                               ),
-                              child: Column(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  FaIcon(
-                                    FontAwesomeIcons.bell,
-                                    color: FlutterFlowTheme.of(context)
-                                        .primaryText,
-                                    size: 40,
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0, 8, 0, 0),
-                                    child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'pcrarg0a' /* Notification */,
-                                      ),
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyText1,
+                              child: InkWell(
+                                onTap: () async {
+                                  await Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) =>
+                                          NotificationWidget(),
                                     ),
-                                  ),
-                                ],
+                                  );
+                                },
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    FaIcon(
+                                      FontAwesomeIcons.bell,
+                                      color: FlutterFlowTheme.of(context)
+                                          .primaryText,
+                                      size: 40,
+                                    ),
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          0, 8, 0, 0),
+                                      child: Text(
+                                        FFLocalizations.of(context).getText(
+                                          'pcrarg0a' /* Notification */,
+                                        ),
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyText1,
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                             Container(
@@ -405,12 +418,43 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
-                                      Text(
-                                        FFLocalizations.of(context).getText(
-                                          'g7t9krj7' /* Information - 3 */,
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            200, 5, 0, 0),
+                                        child: FlutterFlowIconButton(
+                                          borderColor: Colors.transparent,
+                                          borderRadius: 30,
+                                          borderWidth: 1,
+                                          buttonSize: 50,
+                                          icon: FaIcon(
+                                            FontAwesomeIcons.gift,
+                                            color: FlutterFlowTheme.of(context)
+                                                .primaryText,
+                                            size: 20,
+                                          ),
+                                          onPressed: () async {
+                                            await Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                builder: (context) =>
+                                                    NavBarPage(
+                                                        initialPage:
+                                                            'Reward_page'),
+                                              ),
+                                            );
+                                          },
                                         ),
-                                        style:
-                                            FlutterFlowTheme.of(context).title3,
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0, 0, 0, 50),
+                                        child: Text(
+                                          FFLocalizations.of(context).getText(
+                                            'g7t9krj7' /* Information - 3 */,
+                                          ),
+                                          style: FlutterFlowTheme.of(context)
+                                              .title3,
+                                        ),
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
