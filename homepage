@@ -418,9 +418,16 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
+                                      Text(
+                                        FFLocalizations.of(context).getText(
+                                          '5olqe935' /* Information - 3 */,
+                                        ),
+                                        style:
+                                            FlutterFlowTheme.of(context).title3,
+                                      ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            200, 5, 0, 0),
+                                            240, 5, 0, 0),
                                         child: FlutterFlowIconButton(
                                           borderColor: Colors.transparent,
                                           borderRadius: 30,
@@ -445,27 +452,12 @@ class _HomePageAlt1WidgetState extends State<HomePageAlt1Widget>
                                           },
                                         ),
                                       ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0, 0, 0, 50),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'g7t9krj7' /* Information - 3 */,
-                                          ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .title3,
+                                      Text(
+                                        FFLocalizations.of(context).getText(
+                                          'vupu5y5p' /* August 2022 */,
                                         ),
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0, 4, 0, 0),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'vupu5y5p' /* August 2022 */,
-                                          ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
-                                        ),
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyText1,
                                       ),
                                     ],
                                   ),
