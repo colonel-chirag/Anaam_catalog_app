@@ -12,3 +12,4 @@ Report success ![image](https://user-images.githubusercontent.com/59536110/18453
 NotifictionPage ![image](https://user-images.githubusercontent.com/59536110/185201636-796f5e26-aca7-4818-887b-e08a796b0238.png)
 ForgotPassword ![image](https://user-images.githubusercontent.com/59536110/185675493-4eb56104-54a6-4754-bd44-92440eee1169.png)
 NotificationSetting-: ![image](https://user-images.githubusercontent.com/59536110/185676444-a75d05e2-f574-4a66-8f4e-77900e8246c4.png)
+EditProfilePage-: ![image](https://user-images.githubusercontent.com/59536110/185677021-48cfdd5a-26dd-4771-b1d6-50244dea77dc.png)
