@@ -10,3 +10,4 @@ Homepage ![image](https://user-images.githubusercontent.com/59536110/184504051-a
 Reward point ![image](https://user-images.githubusercontent.com/59536110/184504379-660799f0-4bc2-48a0-9dcd-3187afa69f2e.png)
 Report success ![image](https://user-images.githubusercontent.com/59536110/184539301-c37bce99-3fae-4294-9ec4-9f6d7f031e29.png)
 NotifictionPage ![image](https://user-images.githubusercontent.com/59536110/185201636-796f5e26-aca7-4818-887b-e08a796b0238.png)
+ForgotPassword ![image](https://user-images.githubusercontent.com/59536110/185675493-4eb56104-54a6-4754-bd44-92440eee1169.png)
