@@ -11,3 +11,4 @@ Reward point ![image](https://user-images.githubusercontent.com/59536110/1845043
 Report success ![image](https://user-images.githubusercontent.com/59536110/184539301-c37bce99-3fae-4294-9ec4-9f6d7f031e29.png)
 NotifictionPage ![image](https://user-images.githubusercontent.com/59536110/185201636-796f5e26-aca7-4818-887b-e08a796b0238.png)
 ForgotPassword ![image](https://user-images.githubusercontent.com/59536110/185675493-4eb56104-54a6-4754-bd44-92440eee1169.png)
+NotificationSetting-: ![image](https://user-images.githubusercontent.com/59536110/185676444-a75d05e2-f574-4a66-8f4e-77900e8246c4.png)
