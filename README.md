@@ -13,3 +13,4 @@ NotifictionPage ![image](https://user-images.githubusercontent.com/59536110/1852
 ForgotPassword ![image](https://user-images.githubusercontent.com/59536110/185675493-4eb56104-54a6-4754-bd44-92440eee1169.png)
 NotificationSetting-: ![image](https://user-images.githubusercontent.com/59536110/185676444-a75d05e2-f574-4a66-8f4e-77900e8246c4.png)
 EditProfilePage-: ![image](https://user-images.githubusercontent.com/59536110/185677021-48cfdd5a-26dd-4771-b1d6-50244dea77dc.png)
+PrivacyPolicy-: ![image](https://user-images.githubusercontent.com/59536110/185804084-5a082d73-a8cf-4b0f-9c75-af6d548a7e4c.png)
