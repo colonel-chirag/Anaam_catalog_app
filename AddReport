@@ -526,7 +526,7 @@ class _AddReportWidgetState extends State<AddReportWidget>
               ),
               style: FlutterFlowTheme.of(context).bodyText1.override(
                     fontFamily: 'Lexend',
-                    color: Color(0x43000000),
+                    color: Colo(0x43000000),
                   ),
             ),
           ],
