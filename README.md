@@ -55,6 +55,7 @@ PrivacyPolicy-:
 
 TorConnectingPage-
 
-![image](https://user-images.githubusercontent.com/59536110/185867805-b2256046-7df7-4dff-ac45-9f02e62a022f.png)
+![image](https://user-images.githubusercontent.com/59536110/191081377-88aee3ee-c840-4084-94c8-08fd5006c0c4.png)
+
 
 
