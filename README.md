@@ -23,7 +23,7 @@ Register-page
 
 Homepage
 
-![image](https://user-images.githubusercontent.com/59536110/184504051-a8db27f0-5a90-4d03-acb8-adddb46abab0.png)
+![image](https://user-images.githubusercontent.com/59536110/191217165-f5e102fa-7e71-48fa-a96c-f8124fbfa622.png)
 
 Reward point 
 
