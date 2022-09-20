@@ -35,7 +35,7 @@ Report success
 
 NotifictionPage 
 
-![image](https://user-images.githubusercontent.com/59536110/185201636-796f5e26-aca7-4818-887b-e08a796b0238.png)
+![image](https://user-images.githubusercontent.com/59536110/191221227-38ccbf83-4300-4e2a-87c3-9bb1159e9beb.png)
 
 ForgotPassword 
 
