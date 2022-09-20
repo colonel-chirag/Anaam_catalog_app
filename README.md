@@ -25,6 +25,11 @@ Homepage
 
 ![image](https://user-images.githubusercontent.com/59536110/191217165-f5e102fa-7e71-48fa-a96c-f8124fbfa622.png)
 
+Activity
+
+![image](https://user-images.githubusercontent.com/59536110/191224663-4b311c1e-706f-4678-96cf-f64f3ebf6d1b.png)
+
+
 Reward point 
 
 ![image](https://user-images.githubusercontent.com/59536110/184504379-660799f0-4bc2-48a0-9dcd-3187afa69f2e.png)
