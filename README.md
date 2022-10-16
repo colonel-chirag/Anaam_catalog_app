@@ -18,7 +18,7 @@ onboarrding-page
 
 Profile-page
 
-![image](https://user-images.githubusercontent.com/59536110/182662498-f07d24b9-e831-443a-a7a3-ee62d3b6dc58.png)
+![image](https://user-images.githubusercontent.com/59536110/196039608-bbc66cb7-0004-44c6-871a-893733f79d8e.png)
 
 Register-page
 
