@@ -13,7 +13,8 @@ Login-Page-ui
  
 onboarrding-page
 
-![image](https://user-images.githubusercontent.com/59536110/183262307-8a047d60-afa1-4dc4-a4f0-4b003167bebd.png)
+![image](https://user-images.githubusercontent.com/59536110/196038645-d35da23f-6149-4a59-9b98-63de3b948bad.png)
+
 
 Profile-page
 
