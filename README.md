@@ -5,7 +5,7 @@ https://drive.google.com/file/d/1kdA3azttbELlBhTS7ZLrH0YstWLjM2Xy/view?usp=drive
 
 Login-Page-ui
 
-![image](https://user-images.githubusercontent.com/59536110/183142943-3e9c56ee-febb-46e8-aeca-568650b69b6b.png)
+![image](https://user-images.githubusercontent.com/59536110/196039089-aa96660b-a378-4e7a-86ab-aaee66e6d0dd.png)
 
  Complete-profile-ui
  
